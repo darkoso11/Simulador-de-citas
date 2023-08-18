@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Blanqueamiento Dental",
+    "doctor": "Ana Martínez",
+    "img": "img/klipartz.com (1).png"
+  },
+  {
+    "id": 2,
+    "nombre": "Carillas Dentales",
+    "doctor": "Juan Portillo",
+    "img": "img/klipartz.com (13).png"
+  },
+  {
+    "id": 3,
+    "nombre": "Ortodoncia",
+    "doctor": "María Rodríguez",
+    "img": "img/klipartz.com (9).png"
+  },
+  {
+    "id": 4,
+    "nombre": "Resinas de Alta Estética",
+    "doctor": "Ana Martínez",
+    "img": "img/klipartz.com (8).png"
+  },
+  {
+    "id": 5,
+    "nombre": "Endodoncia",
+    "doctor": "Juan Gómez",
+    "img": "img/klipartz.com (11).png"
+  },
+  {
+    "id": 6,
+    "nombre": "Limpiezas Dentales",
+    "doctor": "María Rodríguez",
+    "img": "img/klipartz.com (5).png"
+  },
+  {
+    "id": 7,
+    "nombre": "Implantes Dentales",
+    "doctor": "Juan Portillo",
+    "img": "img/klipartz.com (7).png"
+  }
+]

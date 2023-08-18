@@ -1,0 +1,187 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.imagennav {
+  width: 40px;
+}
+
+.navbar {
+  display: flex;
+  display: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.buttonmenu {
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.calendario {
+  background-color: #6699ff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.mes{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.dias-semana {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  border: 1px solid #ccc;
+}
+
+.dia-semana {
+  text-align: center;
+  padding: 5px;
+}
+
+.dia-semana.domingo {
+  color: red;
+}
+
+.dias-mes {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  border: 1px solid #ccc;
+}
+
+.dia {
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.domingo {
+  color: red;
+}
+
+#dia-seleccionado {
+  text-align: center;
+}
+
+#tratamiento-seleccionado {
+  text-align: center;
+}
+
+.dia-seleccionado {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+/* cards de tratamientos */
+
+#tratamientos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.tarjeta{
+  background-color: aliceblue;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:420px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius:15px;
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.imagencard {
+  width: 150px;
+  text-align: center;
+
+}
+
+#diente{
+  padding-inline: 30px;
+  background-color: #333;
+  cursor: pointer;
+}
+
+.titulo{
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  padding: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.doctor {
+  text-align: center;
+}
+.cuerpo{
+  padding: 10px;
+  text-align: center;
+}
+.pie{
+ 
+background: #6699ff;
+  border-radius:0 0 15px 15px;
+  padding: 10px;
+  text-align:center;
+
+}
+.pie a{
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  text-align: center;
+  padding: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-continuar {
+  text-align: center;
+}
+
+.agendar-cita {
+  text-align: center;
+}

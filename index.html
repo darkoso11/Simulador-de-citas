@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Agendador de Citas para el dentista</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <img src="img/pngwing.com.png" alt="Logo" class="imagennav">
+      </div>
+      <div>
+        <h1>Agendador de citas</h1>
+      </div>
+      <div class="buttonmenu">
+        <a href="agendar.html">
+        <button class="button-outline" title="Ir a favoritos">
+            🦷
+
+          </button>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Seleccione el dia de su consulta</h2>
+    <div class="calendario">
+      <h2 class="mes">Julio 2023</h2>
+      <div class="dias-semana">
+        <div class="dia-semana">Lunes</div>
+        <div class="dia-semana">Martes</div>
+        <div class="dia-semana">Miécoles</div>
+        <div class="dia-semana">Jueves</div>
+        <div class="dia-semana">Viernes</div>
+        <div class="dia-semana">Sábado</div>
+        <div class="dia-semana domingo">Dom</div>
+      </div>
+      <div class="dias-mes" id="dias-mes"></div>
+    </div>
+    <h2>Selecciona tu tratamiento</h2>
+
+    <!-- Div de las cards -->
+    <div id="tratamientos-container" class="container"></div>
+    
+    <div class="seleccion">
+      <h3>Dia y tratamiento seleccionado</h3>
+      <p><b>Dia:</b></p>
+      <div id="dia-seleccionado"></div>
+      <p><b>Tratamiento:</b></p>
+      <div id="tratamiento-seleccionado"></div>
+    </div>
+    <div class="btn-continuar">
+      <h3>Precione en continuar para terminar de agendar</h3>
+      <a href="agendar.html">
+        <button id="continuar-btn">Continuar</button>
+      </a>
+    </div>
+
+  </main>
+  <script type="module" src="./js/api.js"></script>
+  <script type="module" src="./js/tratamientos.js"></script>
+  <script type="module" src="./js/calendario.js"></script>
+  <script defer type="module" src="./js/main.js"></script>
+
+</body>
+
+</html>
